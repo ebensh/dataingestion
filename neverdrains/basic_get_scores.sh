@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e  # Exit immediately if any command fails
+set -x  # Show the commands we are running as they run
 
 # This file is a suuuper klugey example of curl + awk/sed/grep/tr to process
 # a raw text file into csv format.
