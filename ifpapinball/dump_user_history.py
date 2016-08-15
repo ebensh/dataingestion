@@ -8,15 +8,13 @@ import sys
 def main():
   parser = argparse.ArgumentParser(
     description='Query IFPA API, outputting user history as json file')
-  parser.add_argument('api_key_file')
+  parser.add_argument('api_key_file', type=argparse.FileType('r'))
   parser.add_argument('user_id', type=int)
   parser.add_argument('outfile', nargs='?', type=argparse.FileType('w'),
                       default=sys.stdout)
   args = parser.parse_args()
 
-  api_key = ''
-  with open(args.api_key_file, 'r') as api_key_file:
-    api_key = api_key_file.read().strip()
+  api_key = args.api_key_file.read().strip()
   assert api_key  # Make sure the API key is at not empty.
 
   # https://www.ifpapinball.com/api/documentation/
