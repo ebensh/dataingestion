@@ -1,3 +1,4 @@
 Evan here! :)
 Corey -> I edited through the browser.  Did I do it right?
   Hey Corey! Yep, that works to prove that you're a collaborator. Tonight we'll go over how to clone the repository in Vagrant so we can work with the files inside :)
+Corey -> Adding through my local machine
