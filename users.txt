@@ -2,3 +2,5 @@ Evan here! :) I am editing the file lolololol
 Corey -> I edited through the browser.  Did I do it right?
   Hey Corey! Yep, that works to prove that you're a collaborator. Tonight we'll go over how to clone the repository in Vagrant so we can work with the files inside :)
 Ryan is here.
+
+Using the web interface seems a bazillion friggin times easier.
