@@ -16,7 +16,7 @@ egrep '(\<tr\>|\<td\>)' /var/tmp/neverdrains.html | \
     tr -d ',' | \
     sed 's_</td>_,_g' | \
     sed 's_<[^>]*>__g' | \
-    sed 's_,$__' > /var/tmp/scores.csv
+    sed 's_,$__'
   
 
 
