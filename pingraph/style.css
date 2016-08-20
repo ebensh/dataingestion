@@ -1,0 +1,54 @@
+html, body { 
+height: 100%; 
+width: 100%; 
+margin: 0; 
+}
+
+body
+{
+background-color:#FFFFFF;
+font-family:Verdana,sans-serif;
+}
+
+table
+{
+border-style:double;
+}
+
+table.main {
+	width:1000px;
+	background-color:#FFFFFF;
+	padding:5px;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+table.form {
+	width:100%;
+	background-color:#FFFFFF;
+	padding:5px;
+}
+table.form th, table.form td {
+  font-size : 50%;
+  background : #efe none; }
+
+.footer{
+   font-size : 50%;
+   color:#ccc;
+}
+
+div.frame{
+   width:98%;
+   margin:1%;
+}
+
+.pagetitle{
+	font-size : 200%;
+	font-weight : bold;
+}
+
+.gametitle{
+	font-size : 150%;
+	font-weight : bold;
+}
+
