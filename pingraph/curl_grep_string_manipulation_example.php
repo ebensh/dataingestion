@@ -42,7 +42,7 @@ function webpageToCsv($webpage) {
 <html>
 <head>
 <title>Pinball</title>
-    
+<body>
 <?php
    print_r(webpageToCsv(curl('http://www.neverdrains.com/bpso2016/playerIndex.php?disp=game&sel=Main&game=119')));
 ?>
